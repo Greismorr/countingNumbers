@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta lang="pt-br">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="_css/style.css">
+        <script lang="javascript" src="_js/countNumbers.js"></script>
+        <title>Contando Números</title>
+    </head>
+    <body>
+        <section id="floatingBox">
+            <header>
+                <h1>Contando</h1>
+            </header>
+            
+            <p id="startOfCount">Início:
+                <input type="number" id="numberInput">
+            </p>
+
+            <p id="endOfCount">Fim:
+                <input type="number" id="targetNumber">
+            </p>
+
+            <p id="increment">Passo:
+                <input type="number" id="incrementNumber">
+            </p>
+
+            <input type="submit" id="calculateButtom" value="Calcular" onclick="countNumbers()">
+
+            <p id="showCount">Preparando a contagem...</p>
+
+            <footer>
+                <a href="https://github.com/stackOvercrow">Gabriel dos Reis (stackOvercrow)</a>
+            </footer>
+        </section>
+    </body>
+</html>

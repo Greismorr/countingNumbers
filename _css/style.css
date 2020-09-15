@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(160, 191, 248);
+    font-family: sans-serif;
+}
+
+p#endOfCount{
+    padding-left: 0px;
+}
+
+p#startOfCount{
+    padding-right: 11px;
+}
+
+p#increment{
+    padding-right: 14px;
+}
+
+input#calculateButtom{
+    font-family: sans-serif;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+section#floatingBox{
+    background-color: rgb(57, 111, 211);
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 3px 5px 5px rgb(57, 111, 211);
+}
+
+footer{
+    font-size: 11pt;
+}
+
+footer a{
+    text-decoration: none;
+}
