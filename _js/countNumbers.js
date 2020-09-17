@@ -22,6 +22,7 @@ function countNumbers(){
 
             if(numberToIncrement > targetNumber){
                 numberToIncrement = 10
+                break
             }
             showCount.innerHTML += '👉' + numberToIncrement + ' '
         }
